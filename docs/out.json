@@ -7,6 +7,22 @@
 	"originalName": "index.md",
 	"children": [
 		{
+			"id": 16,
+			"name": "default",
+			"kind": 8388608,
+			"kindString": "Reference",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "src/index.ts",
+					"line": 2,
+					"character": 19,
+					"url": "https://github.com/saqqdy/pm-info/blob/60f918d/src/index.ts#L2"
+				}
+			],
+			"target": 13
+		},
+		{
 			"id": 10,
 			"name": "PackageManager",
 			"kind": 256,
@@ -419,6 +435,12 @@
 	],
 	"groups": [
 		{
+			"title": "References",
+			"children": [
+				16
+			]
+		},
+		{
 			"title": "Interfaces",
 			"children": [
 				10
@@ -443,7 +465,8 @@
 		{
 			"fileName": "src/index.ts",
 			"line": 1,
-			"character": 0
+			"character": 0,
+			"url": "https://github.com/saqqdy/pm-info/blob/60f918d/src/index.ts#L1"
 		}
 	]
 }

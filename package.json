@@ -16,15 +16,10 @@
 		}
 	},
 	"files": [
-		"dist",
-		"es",
-		"lib",
-		"typings"
+		"dist"
 	],
 	"directories": {
 		"dist": "dist",
-		"es": "es",
-		"lib": "lib",
 		"src": "src"
 	},
 	"scripts": {

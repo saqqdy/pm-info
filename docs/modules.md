@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### References
+
+- [default](modules.md#default)
+
 ### Interfaces
 
 - [PackageManager](interfaces/PackageManager.md)
@@ -17,6 +21,12 @@
 - [normalizePMSpec](modules.md#normalizepmspec)
 - [pmInfo](modules.md#pminfo)
 - [pmInfoSync](modules.md#pminfosync)
+
+## References
+
+### default
+
+Renames and re-exports [pmInfo](modules.md#pminfo)
 
 ## Type Aliases
 
