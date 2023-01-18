@@ -1,0 +1,449 @@
+{
+	"id": 0,
+	"name": "index.md - v1.0.0",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "index.md",
+	"children": [
+		{
+			"id": 10,
+			"name": "PackageManager",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {
+				"isExternal": true
+			},
+			"children": [
+				{
+					"id": 11,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExternal": true
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 12,
+					"name": "version",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExternal": true,
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						11,
+						12
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+					"line": 13,
+					"character": 25
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "ModulesYML",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {
+				"isExternal": true
+			},
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+					"line": 1,
+					"character": 20
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "Record",
+						"qualifiedName": "Record",
+						"package": "typescript"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 8,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {
+								"isExternal": true
+							},
+							"children": [
+								{
+									"id": 9,
+									"name": "packageManager",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExternal": true
+									},
+									"sources": [
+										{
+											"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+											"line": 2,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										9
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+									"line": 1,
+									"character": 59
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"name": "normalizePMSpec",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExternal": true
+			},
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+					"line": 11,
+					"character": 24
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "normalizePMSpec",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExternal": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "normalizePMSpec"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "result - { name: 'pnpm', version: '7.25.0' }"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 3,
+							"name": "pm",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExternal": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "packageManager version: pnpm@7.25.0"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 10,
+						"name": "PackageManager",
+						"qualifiedName": "PackageManager",
+						"package": "@node-kit/pm-info"
+					}
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "pmInfo",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExternal": true
+			},
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+					"line": 24,
+					"character": 17
+				}
+			],
+			"signatures": [
+				{
+					"id": 14,
+					"name": "pmInfo",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExternal": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "pmInfo"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "result - WorkspaceRootResult | null"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 15,
+							"name": "cwd",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExternal": true,
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "the pkg path"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"id": 10,
+										"name": "PackageManager",
+										"qualifiedName": "PackageManager",
+										"package": "@node-kit/pm-info"
+									},
+									{
+										"type": "literal",
+										"value": null
+									}
+								]
+							}
+						],
+						"name": "Promise",
+						"qualifiedName": "Promise",
+						"package": "typescript"
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "pmInfoSync",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExternal": true
+			},
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+pm-info@1.2.1/node_modules/@node-kit/pm-info/dist/index.d.ts",
+					"line": 34,
+					"character": 24
+				}
+			],
+			"signatures": [
+				{
+					"id": 5,
+					"name": "pmInfoSync",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExternal": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "pmInfoSync"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "result - WorkspaceRootResult | null"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 6,
+							"name": "cwd",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExternal": true,
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "the pkg path"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"id": 10,
+								"name": "PackageManager",
+								"qualifiedName": "PackageManager",
+								"package": "@node-kit/pm-info"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"children": [
+				10
+			]
+		},
+		{
+			"title": "Type Aliases",
+			"children": [
+				7
+			]
+		},
+		{
+			"title": "Functions",
+			"children": [
+				1,
+				13,
+				4
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "src/index.ts",
+			"line": 1,
+			"character": 0
+		}
+	]
+}
