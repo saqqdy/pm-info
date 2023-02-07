@@ -19,6 +19,8 @@ A simple utility to get the package manager information which used in the projec
 
 </div>
 
+> This project has been migrated to [pm-info](https://github.com/saqqdy/node-kit/tree/master/packages/pm-info#readme)
+
 ## Install
 
 ```bash
